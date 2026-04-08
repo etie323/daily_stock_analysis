@@ -1396,7 +1396,7 @@ class NotificationService(
             "",
         ]
 
-        self._append_market_snapshot(lines, result)
+        # self._append_market_snapshot(lines, result)
         
         # 核心决策（一句话）
         one_sentence = core.get('one_sentence', result.analysis_summary) if core else result.analysis_summary
