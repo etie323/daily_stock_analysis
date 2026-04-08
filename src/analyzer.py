@@ -378,7 +378,7 @@ class AnalysisResult:
     buy_reason: str = ""  # 买入/卖出理由
 
     # ========== 元数据 ==========
-    market_snapshot: Optional[Dict[str, Any]] = None  # 当日行情快照（展示用）
+    # market_snapshot: Optional[Dict[str, Any]] = None  # 当日行情快照（展示用）——20260408，不想要當日行情的内容！
     raw_response: Optional[str] = None  # 原始响应（调试用）
     search_performed: bool = False  # 是否执行了联网搜索
     data_sources: str = ""  # 数据来源说明
